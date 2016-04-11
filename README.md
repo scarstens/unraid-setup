@@ -12,7 +12,10 @@ This setup assumes you are going to pay for privateinternetaccess.com to protect
 
 - Signup and pay for account at privateinternetaccess.com
 - From unraid web GUI -> docker -> search `binhex-delugevpn` and install
-- Click `advanced` toggle in unraid ui (top right)
+- Click `advanced` toggle in unraid ui (top right) 
+
+![unraid-docker-advanced-view](https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/unraid-docker-advanced-view.png "unraid-docker-advanced-view")
+
 - Change the ENV parameters as follows:
     - create `LAN_NETWORK` = `192.168.2.1/0`
     - edit `VPN_USER` = [GetFromPIA](privateinternetaccess.com?refer=sethcarstens)
