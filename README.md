@@ -1,6 +1,17 @@
 # Seths guide to setting up your UNRAID server
 After working with unraid for several years, I decided its time I documented things I learned and how my current setup works. While I do intend for this guide to help others, honestly, I'm doing this documentation just as much for my own purposes, as I have trouble remembering all the tricks I used in the setup process.
 
+## Table of Contents
+- [Building or Buying an UNRAID Server] *...todo*
+- [Downloading and Installing the OS](#downloading-and-installing-the-os)
+- [Configuring your UNRAID server for the first time] *...todo*
+- [Setup Deluge Torrent with VPN for Security](#setup-deluge-torrent-with-vpn-for-security)
+- [Setup CouchPotato] *...todo*
+- [Setup Sabnzb] *...todo*
+- [Setup Sonarr] *...todo*
+- [Setup Plex] *...todo*
+- [Setup NoIP] *...todo*
+
 ## Downloading and Installing the OS
 - https://lime-technology.com/download/
 - I highly recommend you just purchase the prebuilt flash drive from limetech to avoid any setup issues:
