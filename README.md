@@ -7,8 +7,8 @@ I highly recommend you just purchase the prebuilt flash drive from limetech to a
 https://lime-technology.com/preconfigured-usb-flash/?refer=sethcarstens
 `TODO: guide on setup of server`
 
-## Setup Torrent with VPN for Security
-This setup assumes you are going to pay for privateinternetaccess.com to protect your privacy while using a torrent provider, and that your local network is setup to DHCP addresses like '192.168.2.1`  
+## Setup Deluge Torrent with VPN for Security
+This setup assumes you are going to pay for privateinternetaccess.com to protect your privacy while using a torrent provider, and that your local network is setup to DHCP addresses like '192.168.2.1`. Note that deluge is more reliable then transmission, utorrent or rtorrent when you are using the UNRAID, Docker and related media providers (like couchpotato, sonarr, sickbeard, etc). 
 
 - Signup and pay for account at privateinternetaccess.com
 - From unraid web GUI -> docker -> search `binhex-delugevpn` and install
