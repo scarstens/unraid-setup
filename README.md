@@ -4,6 +4,7 @@ After working with unraid for several years, I decided its time I documented thi
 ## Table of Contents
 - [Building or Buying an UNRAID Server] *...todo*
 - [Downloading and Installing the OS](#downloading-and-installing-the-os)
+- [Preclear All Your Hard Drives before loading them into the RAID array **ext link**](http://lime-technology.com/forum/index.php?topic=2817.0)
 - [Configuring your UNRAID server for the first time] *...todo*
 - [Setup Deluge Torrent with VPN for Security](#setup-deluge-torrent-with-vpn-for-security)
 - [Setup CouchPotato] *...todo*
