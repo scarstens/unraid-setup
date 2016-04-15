@@ -1,10 +1,13 @@
 # Seths guide to setting up your UNRAID server
-After working with unraid for several years, I decided its time I documented things I learned and how my current setup works. While I do intend for this guide to help others, honestly, I'm doing this documentation just as much for my own purposes, as I have trouble remembering all the tricks I used in the setup process.
+After working with unraid for several years, I decided its time I documented things I learned and how my current setup works. While I do intend for this guide to help others, honestly, I'm doing this documentation just as much for my own purposes, as I have trouble remembering all the tricks I used in the setup process. My current setup is fantastic, requires almost no maintanance, and the system maintains great uptimes:
+
+<img src="https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/unraid-sethflix-uptime.png" width="500">
+
 
 ## Table of Contents
 - [Building or Buying an UNRAID Server] *...todo*
 - [Downloading and Installing the OS](#downloading-and-installing-the-os)
-- [Preclear All Your Hard Drives before loading them into the RAID array **ext link**](http://lime-technology.com/forum/index.php?topic=2817.0)
+- [Preclear HDDs before adding to RAID array](#preclear-hdds-before-adding-to-raid-array)
 - [Configuring your UNRAID server for the first time] *...todo*
 - [Setup Deluge Torrent with VPN for Security](#setup-deluge-torrent-with-vpn-for-security)
 - [Setup CouchPotato] *...todo*
@@ -20,6 +23,20 @@ After working with unraid for several years, I decided its time I documented thi
 - `TODO: guide on setup of server`
 
 <img src="https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/unraid-dashboard-v6-example1.png" width="500">
+
+## Preclear HDDs before adding to RAID array
+
+- [Preclear All Your Hard Drives before loading them into the RAID array **ext link**](http://lime-technology.com/forum/index.php?topic=2817.0)
+
+Process example screenshots:
+
+<img src="https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/unraid-preclear-example1.png" width="500">
+
+<img src="https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/unraid-preclear-example2.png" width="500">
+
+<img src="https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/unraid-preclear-example3.png" width="500">
+
+<img src="https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/unraid-preclear-example4.png" width="500">
 
 ## Setup Deluge Torrent with VPN for Security
 This setup assumes you are going to pay for privateinternetaccess.com to protect your privacy while using a torrent provider, and that your local network is setup to DHCP addresses like '192.168.2.1`. Note that deluge is more reliable then transmission, utorrent or rtorrent when you are using the UNRAID, Docker and related media providers (like couchpotato, sonarr, sickbeard, etc). 
