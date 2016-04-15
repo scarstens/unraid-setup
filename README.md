@@ -1,7 +1,7 @@
 # Seths guide to setting up your UNRAID server
 After working with unraid for several years, I decided its time I documented things I learned and how my current setup works. While I do intend for this guide to help others, honestly, I'm doing this documentation just as much for my own purposes, as I have trouble remembering all the tricks I used in the setup process. My current setup is fantastic, requires almost no maintanance, and the system maintains great uptimes:
 
-<img src="https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/unraid-sethflix-uptime.png" width="500">
+<img src="https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/unraid-sethflix-uptime.png" width="300">
 
 
 ## Table of Contents
