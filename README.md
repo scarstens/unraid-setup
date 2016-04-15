@@ -59,3 +59,18 @@ This setup assumes you are going to pay for privateinternetaccess.com to protect
 *Click to enlarge image:*
 
 <img src="https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/unraid-docker-deluge-settings-example1.png" width="300">
+
+## Setup CouchPotato
+
+
+## Setup Sabnzb
+
+
+## Setup Sonarr
+
+
+## Setup Plex
+
+
+## Setup NoIP
+
