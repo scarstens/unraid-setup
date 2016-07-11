@@ -57,11 +57,12 @@ This setup assumes you are going to pay for privateinternetaccess.com to protect
 ![unraid-docker-advanced-view](https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/unraid-docker-advanced-view.png "unraid-docker-advanced-view")
 
 - Change the ENV parameters as follows:
-    - create `LAN_NETWORK` = `192.168.2.1/0`
+    - use this calculator to get your own IP numbers http://www.subnet-calculator.com/cidr.php
+    - create `LAN_NETWORK` = `192.168.2.0/24`
     - edit `VPN_USER` = [GetFromPIA](privateinternetaccess.com?refer=sethcarstens)
     - edit `VPN_PASS` = [GetFromPIA](privateinternetaccess.com?refer=sethcarstens)
     - edit `ENABLE_PRIVOXY` = `yes`
-    - edit `LAN_RANGE` = `192.168.2.1-192.168.2.254`
+    - edit `LAN_RANGE` = `192.168.2.0-192.168.2.254`
 - manually add new deluge client user and password so other docker containers can authenticate (http://dev.deluge-torrent.org/wiki/UserGuide/ThinClient#AddUsertotheauthenticationfile) I did this by `ssh` into the box and then editing the auth file, paths may vary depending on your config, mine looked like this `sudo nano /mnt/cache/appdata/binhex-deluge-vpn/auth` which opens the file for edit, then you just add `deluge:deluge:10` which will allow all docker apps on your server to authentication with deluge via the username `deluge` and the password `deluge`
 - Stop and then Start the deluge docker
 
