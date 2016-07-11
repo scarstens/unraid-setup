@@ -45,6 +45,8 @@ Settings -> Docker -> Enable -> Yes :: Default settings -> Save
 
 <img src="https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/unraid-enable-docker.png" width="500">
 
+<img src="https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/unraid-docker-install-success.png" width="500">
+
 ## Setup Deluge Torrent with VPN for Security
 This setup assumes you are going to pay for privateinternetaccess.com to protect your privacy while using a torrent provider, and that your local network is setup to DHCP addresses like '192.168.2.1`. Note that deluge is more reliable then transmission, utorrent or rtorrent when you are using the UNRAID, Docker and related media providers (like couchpotato, sonarr, sickbeard, etc). 
 
