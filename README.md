@@ -40,6 +40,7 @@ Process example screenshots:
 <img src="https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/unraid-preclear-example4.png" width="500">
 
 ## Enable Docker
+[Official Unraid Docker Documentation](https://lime-technology.com/docker-guide/)
 Settings -> Docker -> Enable -> Yes :: Default settings -> Save
 
 <img src="https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/unraid-enable-docker.png" width="500">
