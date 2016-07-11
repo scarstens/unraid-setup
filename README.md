@@ -9,6 +9,7 @@ After working with unraid for several years, I decided its time I documented thi
 - [Downloading and Installing the OS](#downloading-and-installing-the-os)
 - [Preclear HDDs before adding to RAID array](#preclear-hdds-before-adding-to-raid-array)
 - [Configuring your UNRAID server for the first time] *...todo*
+- [Enable Docker](#enable-docker)
 - [Setup Deluge Torrent with VPN for Security](#setup-deluge-torrent-with-vpn-for-security)
 - [Setup CouchPotato] *...todo*
 - [Setup Sabnzb] *...todo*
@@ -37,6 +38,11 @@ Process example screenshots:
 <img src="https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/unraid-preclear-example3.png" width="500">
 
 <img src="https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/unraid-preclear-example4.png" width="500">
+
+## Enable Docker
+Settings -> Docker -> Enable -> Yes :: Default settings -> Save
+
+<img src="https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/unraid-enable-docker.png" width="500">
 
 ## Setup Deluge Torrent with VPN for Security
 This setup assumes you are going to pay for privateinternetaccess.com to protect your privacy while using a torrent provider, and that your local network is setup to DHCP addresses like '192.168.2.1`. Note that deluge is more reliable then transmission, utorrent or rtorrent when you are using the UNRAID, Docker and related media providers (like couchpotato, sonarr, sickbeard, etc). 
