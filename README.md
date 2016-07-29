@@ -83,5 +83,7 @@ This setup assumes you are going to pay for privateinternetaccess.com to protect
 ## Setup Plex
 
 
-## Setup NoIP
+## Setup DYNDNS using CloudFlare
+Goto the docker tab and manually add a new docker contrainer like the following:
 
+<img src="https://raw.githubusercontent.com/scarstens/unraid-setup/master/assets/cloudflare-dyndns-docker-settings.png" width="300">
