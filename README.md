@@ -15,7 +15,7 @@ After working with unraid for several years, I decided its time I documented thi
 - [Setup Sabnzb] *...todo*
 - [Setup Sonarr] *...todo*
 - [Setup Plex] *...todo*
-- [Setup NoIP] *...todo*
+- [Setup DYNDNS with CloudFlare Free](#setup-dyndns-using-cloudflare)
 
 ## Downloading and Installing the OS
 - https://lime-technology.com/download/
