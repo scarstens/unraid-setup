@@ -18,3 +18,9 @@ etc/rc.d/rc.plexmediaserver start
 ```bash
 etc/rc.d/rc.plexmediaserver restart
 ```
+
+## Copy file to server using SCP via SSH RSA
+```
+scp -P 2222 -i ~/.ssh/id_rsa  0_Sethflix_Preroll.mkv sethcarstens@192.168.2.198:/mnt/user/Movies
+0_Sethflix_Preroll.mkv
+```
