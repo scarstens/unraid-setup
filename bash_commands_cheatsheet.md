@@ -1,5 +1,11 @@
 #Unraid Bash Commands Cheat Sheet
 
+## Copy all video files in subfolders to current folder
+
+```bash
+find . -type f -exec file -N -i -- {} + | sed -n 's!: video/[^:]*$!!p' | xargs -I '{}' mv {} ./
+```
+
 ## Restart Gracefully:
 ```bash
 /etc/rc.d/rc.unRAID stop && shutdown -r now
